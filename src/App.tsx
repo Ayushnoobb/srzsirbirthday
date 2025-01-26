@@ -59,7 +59,8 @@ function App() {
       <div style={{ marginInline: 'auto' }} className='confetti-container'>
         <h1>{`<BlazeCodes />`}</h1>
         <div className='img-holder'>
-          <img src="/public/srzsir.jfif" alt="Saroj"  className='image-image'/>
+          {/* <img src="/public/srzsir.jfif" alt="Saroj"  className='image-image'/> */}
+          <img src="/srzsir.jfif" alt="Saroj"  className='image-image'/>
         </div>
         <h2>Happy Birthday Saroj Sir!</h2>
         <span className='conffeti-holder'>🎉</span>
