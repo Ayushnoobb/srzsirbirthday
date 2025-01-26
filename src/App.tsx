@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import './App.css'
 import Cake from './components/Cake'
 
 // import SarojSir from '/saroj.jfif'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className=''>
