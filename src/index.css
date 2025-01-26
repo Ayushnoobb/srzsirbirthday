@@ -679,12 +679,18 @@ body {
     }
   }
   .img-holder {
+    max-height: 40vh;
+    width: 40vh;
+    margin-inline: auto;
+    overflow: hidden;
+    border-radius: 100%;
   }
   .image-image {
     height: auto;
     max-height: 40vh;
     width: 40vh;
     -o-object-fit: cover;
+    scale: 2.2;
     object-fit: cover;
     border-radius: 100%;
   }
