@@ -57,7 +57,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  bokeh {
+  label {
     position: fixed;
     width: 2vmin;
     height: 2vmin;
