@@ -22,7 +22,7 @@ function App() {
     boddie.style.pointerEvents = 'none';
     document.body.appendChild(boddie);
 
-    const createDiv = (char, size) => {
+    const createDiv = (char :any, size :any) => {
       const div = document.createElement('div');
       div.style.fontSize = `${size}px monospace`;
       div.style.position = 'absolute';
@@ -51,7 +51,7 @@ function App() {
       }
     };
 
-    const explode = (star) => {
+    const explode = (star:any) => {
       for (let i = 0; i < bits; i++) {
         let particle = createDiv('*', 13);
         particle.style.color = colours[Math.floor(Math.random() * colours.length)];
